@@ -1,0 +1,104 @@
+
+.task {
+    min-width: 330px;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color:rgb(202, 226, 232);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  .task-input-box
+  {
+    width: 17vw;
+  }
+  .task-head
+  {
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .task-des
+  {
+    color:black;
+    font-size: 17px;
+  }
+  .task:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task h3 {
+    margin-top: 0;
+  }
+  
+  .task p {
+    margin-bottom: 10px;
+  }
+  
+  .completed {
+    background-color: #e0e0e0;
+  }
+  
+  .task input[type="checkbox"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .task button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .task button:hover {
+    background-color: #97666b;
+  }
+  
+  .task-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-form input[type="text"],
+  .task-form textarea,
+  .task-form input[type="date"],
+  .task-form button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-form button[type="button"] {
+    background-color: #6c757d;
+  }
+  
+  .task-form button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  .edit-btn
+  {
+    background-color: #c82333;
+    height: 33px;
+    width: 70px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,50 @@
+.Task-form-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 30vw; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZdjE8sqbqIurvjDGclDZ8gG4T1r0peqwRn3jMFSyMJc2gjel4shQB6P3&s=10 ");
+    background-size: 150%;
+    height: 100vh;
+  }
+  
+  .form-con
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 15px;
+    width: 25vw;
+  }
+  
+  .input-box
+  {
+    width: 400px;
+    padding: 10px;
+  }
+  .add-task-name
+  {
+    color: white;
+    font-weight: bold;
+  }
+  .addtask-btn
+  {
+    height: 50px;
+    width: 120px;
+    background-color:rgb(167, 38, 38);
+    border-color: transparent;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+  }
+  
+  @media (max-width:576px) {
+    .Task-form-con{
+      height: 100%;
+    }
+    .form-con
+  {
+   
+    width: 80vw;
+  }
+  }
